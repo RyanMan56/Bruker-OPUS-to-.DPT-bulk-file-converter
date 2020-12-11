@@ -1,4 +1,4 @@
-# Bulk-Bruker-OPUS-to-.DPT-converter
+# Bruker OPUS to .DPT bulk file converter
 
 Bulk file converter for Bruker OPUS Spectroscopy Software 
 
