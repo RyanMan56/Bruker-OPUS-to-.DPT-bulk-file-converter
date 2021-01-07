@@ -27,8 +27,8 @@ except:
   print("could not remove /converted_data, directory not does exist")
 
 # Calculate files and directories that need to be created
-targetDirs = list(map(lambda dir: dir.replace("raw_data/", "converted_data/"), dirs))
-targetFiles = list(map(lambda file: file.replace("raw_data/", "converted_data/"), files))
+targetDirs = list(map(lambda dir: dir.replace("raw_data", "converted_data", 1), dirs))
+targetFiles = list(map(lambda file: file.replace("raw_data", "converted_data", 1), files))
 
 # Create all target directories
 for dir in targetDirs:
