@@ -30,6 +30,8 @@ except:
 targetDirs = list(map(lambda dir: dir.replace("raw_data", "converted_data", 1), dirs))
 targetFiles = list(map(lambda file: file.replace("raw_data", "converted_data", 1), files))
 
+targetDirs.append("converted_data")
+
 # Create all target directories
 for dir in targetDirs:
   try:
