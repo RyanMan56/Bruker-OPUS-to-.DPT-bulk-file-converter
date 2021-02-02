@@ -12,4 +12,4 @@ How to use:
 2. Manually convert one OPUS file e.g. (XXX.0001) to .dpt format and place it in the ```/dpt_template``` directory. (The X-Axis will be extracted from this template to be used as the X-Axis for all bulk-converted files)
 3. Place your binary OPUS files in the ```/raw_data``` folder. You can create as many nested subdirectories as you'd like - this same folder structure will be copied and used for the converted files. (e.g. for a binary file placed in ```/raw_data/scan 1/full scan.0001```, the converted .dpt file will be generated and placed in ```/converted_data/scan 1/full scan.0001.dpt```)
 4. Run ```python -m pip install -r requirements.txt``` to install dependencies
-4. Run the bulk conversion script with the following command: ```python3 main.py```
+4. Run the bulk conversion script with the following command: ```python main.py```
